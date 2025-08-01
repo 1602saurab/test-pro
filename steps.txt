@@ -1,0 +1,81 @@
+Create venv 
+
+template.py 
+
+requirements.txt
+
+src > cnnClassifier>
+
+constant ---> __init__
+src --> cnnClassifier--->__init__.py 
+
+main.py 
+
+Images we can get from this github profile --> entbappy/Branching-tutorial
+
+
+upload all the data with images zip upload it on github  and then copy path of the raw file
+
+update the config.yaml 
+
+research > data_ingestion.ipynb 
+
+constants > __init__.py 
+
+
+Create a new file 'config_entity.py' in entity folder  and wrtie class DataIngestionConfig
+
+
+Update the configuration Manager in src config 
+In config ---> configuration.py 
+and write details from research ---> data_ingestion.ipynb file 
+
+
+
+Update the components 
+Create a file in components folder ---> data_ingestion.py 
+and write detaisl from research ---> data_ingestion.ipynb file 
+
+
+Update the Pipeline 
+In Pipeline folder -->> create new file 'stage_01_data_ingestion.py' 
+
+
+
+Update the main.py 
+Now run python main.py  and we will see in artifacts folder data unzip and runnig all process . 
+
+
+
+
+Now we will work on dvc so for this , we will ignore the artifacts folder from git . 
+In '.gitignore' ---> we will add artifacts/* 
+
+Now push this gitignore to github . 
+
+update the params.yaml
+
+
+folder Research ---->  prepare_base_model.ipynb 
+
+
+Add 'prepare_base_model' in config.yaml 
+
+Now create file in research ----> prepare_base_model.ipynb 
+
+
+In components folder ---> create a new file 'prepare_base_model.py' and write all logics here . 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
